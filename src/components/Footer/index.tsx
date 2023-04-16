@@ -35,42 +35,52 @@ export default function Footer() {
   let year = d.getFullYear();
 
   return (
-    <div className="card flex  flex-col gap-3 justify-between !py-10 my-12 lg:flex-row">
-      {/* Designed & Built by Eli Sultanov in NYC 🌮 */}
-      <Section
-        title={"Say hi"}
-        Icon={MdOutlineWavingHand}
-        body={<p className="text-sm">eli.sv@outlook.com</p>}
-      />
-      <Section
-        title={"Find me on"}
-        Icon={MdOutlineTravelExplore}
-        body={
-          <>
+    <div className="mb-12">
+      <div className="card flex  flex-col gap-3 justify-between !py-10 my-12 lg:flex-row">
+        <Section
+          title={"Say hi"}
+          Icon={MdOutlineWavingHand}
+          body={<p className="text-sm">eli.sv@outlook.com</p>}
+        />
+        <Section
+          title={"Find me on"}
+          Icon={MdOutlineTravelExplore}
+          body={
+            <>
+              <a
+                href="https://www.linkedin.com/in/elisvcodes/"
+                className="text-sm"
+                target="_blank"
+              >
+                linkedin
+              </a>
+              <a
+                href="https://github.com/elisvcodes"
+                className="text-sm"
+                target="_blank"
+              >
+                github
+              </a>
+            </>
+          }
+        />
+        <Section
+          title={"View source code?"}
+          Icon={MdCode}
+          body={
             <a
-              href="https://www.linkedin.com/in/elisvcodes/"
+              href="https://github.com/elisvcodes/portfolio-v2"
               className="text-sm"
+              target="_blank"
             >
-              linkedin
-            </a>
-            <a href="https://github.com/elisvcodes" className="text-sm">
               github
             </a>
-          </>
-        }
-      />
-      <Section
-        title={"View source code?"}
-        Icon={MdCode}
-        body={
-          <a
-            href="https://github.com/elisvcodes/portfolio-v2"
-            className="text-sm"
-          >
-            github
-          </a>
-        }
-      />
+          }
+        />
+      </div>
+      <div className="text-sm text-center">
+        Designed & Built by Eli Sultanov in NYC 🌮
+      </div>
     </div>
   );
 }
