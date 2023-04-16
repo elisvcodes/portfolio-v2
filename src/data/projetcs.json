@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Twe Twe",
+    "description": "TweTwe is a social media platform that is similar to Twitter. Users are able to create content, like, comment, and follow other users. Keep in mind that this is an MVP and some notable Twitter features are missing.",
+    "img": { "src": "/TweTwe-desktop.png", "alt": "Twe Twe" },
+    "githubLink": "https://github.com/elisvcodes/TweTwe",
+    "demoLink": "https://twetwe.elisv.com/",
+    "techStack": ["React", "Node.js", "Material UI", "Redux"]
+  },
+  {
+    "title": "IOI Gaming",
+    "description": "IOI is a fictional e-commerce platform that was built for gaming enthusiast to hunt for deals. As a shop owner you are able to managed everything from the admin area including adding products, view orders, and much more.",
+    "img": { "src": "/IOI-Gaming.png", "alt": "IOI" },
+    "githubLink": "https://github.com/elisvcodes/IOIGaming",
+    "demoLink": "https://ioi.elisv.com/",
+    "techStack": ["React", "Node.js", "Material UI", "Redux", "Stripe"]
+  }
+]

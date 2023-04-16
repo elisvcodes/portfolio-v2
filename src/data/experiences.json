@@ -1,0 +1,37 @@
+[
+  {
+    "company": "Whop",
+    "role": "Software engineer",
+    "tenure": "12/2021 - 12/2022",
+    "accomplishments": [
+      "Created an intuitive content management system (CMS) using React & TypeScript that enabled content creators to efficiently manage their content from a single dashboard.",
+      "Designed reusable functional components that use Hooks & Context Providers for state management.",
+      "Collaborated closely with the design team to evaluate and enhance landing pages, implementing data-driven changes that led to a 30% increase in conversion rates and improved user experience.",
+      "Worked closely with the backend team to implement RESTful API’s and GraphQL queries for seamless data retrieval and manipulation.",
+      "Participated in every step of the product development process, from ideation to development, and assisted in developing features that were adopted by 500,000+ users."
+    ]
+  },
+  {
+    "company": "Manhattan Youth",
+    "role": "After school CS Teacher",
+    "tenure": "04/2021 – 12/2021",
+    "accomplishments": [
+      "Introduced students to JavaScript and its related technologies, such as React, Node.js, MongoDB, and PostgreSQL.",
+      "Developed engaging lesson plans and projects to help students build a strong foundation in coding fundamentals.",
+      "Mentored and provided feedback to students to help them succeed in their programming goals.",
+      "Encouraged and facilitated student collaboration on projects to promote teamwork and peer learning.",
+      "Stayed up to date with the latest trends and incorporated them into the curriculum as appropriate."
+    ]
+  },
+  {
+    "company": "Heidi Latsky Dance ",
+    "role": "Full Stack Developer Intern",
+    "tenure": "07/2020 – 04/2020",
+    "accomplishments": [
+      "Rebuilt the dance studio's website from scratch, utilizing React and Next.js to create a dynamic and interactive user experience.",
+      "Incorporated Bootstrap to ensure consistency and maintainability in the styling of the website.",
+      "Developed a custom content management system (CMS) using Node.JS, Express.js, and MongoDB, and React to make it easier for the dance studio to manage their content.",
+      "Implemented Redux for state management and ensured data consistency throughout the application."
+    ]
+  }
+]
