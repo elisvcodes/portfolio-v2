@@ -8,6 +8,7 @@ import ProjectCard from "./components/Cards/ProjectCard";
 import Footer from "./components/Footer";
 import experiences from "./data/experiences.json";
 import projects from "./data/projetcs.json";
+import ArticlesCard from "./components/Cards/ArticlesCard";
 
 function App() {
   return (
@@ -58,6 +59,19 @@ function App() {
             />
           ))}
         </div>
+      </Section>
+
+      {/* Articles Section */}
+
+      <Section title="Featured Articles">
+        <ArticlesCard
+          title="Learn How to Build a Full-Stack Application - Part 1"
+          link="https://medium.com/swlh/learn-how-to-build-a-full-stack-application-using-node-js-and-react-in-2021-part-1-121fa6762a69"
+        />
+        <ArticlesCard
+          title="Learn How to Build a Full-Stack Application - Part 2"
+          link="https://medium.com/geekculture/learn-how-to-build-a-full-stack-application-using-node-js-and-react-in-2021-part-two-front-end-bfa2665ffaf4"
+        />
       </Section>
 
       {/* Footer */}
