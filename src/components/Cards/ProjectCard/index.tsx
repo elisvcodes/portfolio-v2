@@ -1,7 +1,7 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { FiArrowUpRight } from "react-icons/fi";
-import Tag from "../Tag";
+import Tag from "../../Tag";
 
 export default function ProjectCard({
   title,

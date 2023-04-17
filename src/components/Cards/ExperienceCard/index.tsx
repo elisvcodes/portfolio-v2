@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { VscChevronDown, VscChevronUp } from "react-icons/vsc";
 
-export default function ExperienceAccordion({
+export default function ExperienceCard({
   role,
   company,
   tenure,

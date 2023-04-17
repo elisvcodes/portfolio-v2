@@ -1,10 +1,10 @@
 import React from "react";
-import ExperienceAccordion from "./components/ExperienceAccordion";
+import ExperienceCard from "./components/Cards/ExperienceCard";
 import Container from "./components/Container";
 import Section from "./components/Section";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import ProjectCard from "./components/ProjectCard";
+import ProjectCard from "./components/Cards/ProjectCard";
 import Footer from "./components/Footer";
 import experiences from "./data/experiences.json";
 import projects from "./data/projetcs.json";
@@ -22,7 +22,7 @@ function App() {
       <Section title="Experience">
         {experiences.map((experience, index) => (
           <React.Fragment key={index}>
-            <ExperienceAccordion
+            <ExperienceCard
               company={experience.company}
               role={experience.role}
               tenure={experience.tenure}
@@ -35,7 +35,7 @@ function App() {
                   </span>
                 </div>
               ))}
-            </ExperienceAccordion>
+            </ExperienceCard>
 
             <div className="my-4" />
           </React.Fragment>
