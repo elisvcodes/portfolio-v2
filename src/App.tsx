@@ -1,6 +1,7 @@
 import React from "react";
 import ExperienceAccordion from "./components/ExperienceAccordion";
 import Container from "./components/Container";
+import Section from "./components/Section";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import ProjectCard from "./components/ProjectCard";
@@ -18,9 +19,7 @@ function App() {
       <Hero />
 
       {/* Experience Section */}
-
-      <div className="py-12">
-        <p className="mb-8 font-medium text-xl tracking-normal">Experience</p>
+      <Section title="Experience">
         {experiences.map((experience, index) => (
           <React.Fragment key={index}>
             <ExperienceAccordion
@@ -41,14 +40,11 @@ function App() {
             <div className="my-4" />
           </React.Fragment>
         ))}
-      </div>
+      </Section>
 
       {/* Featured Projects Section */}
 
-      <div className="py-12">
-        <p className="mb-8 font-medium text-xl tracking-normal">
-          Featured Projects
-        </p>
+      <Section title="Featured Projects">
         <div className="flex flex-col gap-4 lg:flex-row">
           {projects.map((project, index) => (
             <ProjectCard
@@ -62,7 +58,7 @@ function App() {
             />
           ))}
         </div>
-      </div>
+      </Section>
 
       {/* Footer */}
       <Footer />
