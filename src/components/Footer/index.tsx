@@ -31,9 +31,6 @@ const Section = ({
 };
 
 export default function Footer() {
-  const d = new Date();
-  let year = d.getFullYear();
-
   return (
     <div className="mb-12">
       <div className="card flex  flex-col gap-3 justify-between !py-10 my-12 lg:flex-row">

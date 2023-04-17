@@ -1,5 +1,4 @@
 import React from "react";
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 export default function Hero() {
   return (
     <div className="flex items-center justify-center flex-col gap-4 py-14 sm:py-28">
