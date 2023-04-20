@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="card flex items-center mt-6 justify-between">
       <a
-        href="https://drive.google.com/file/d/1gqrX56_iKrPLTAzaX1Sb2ASSL5agaFl2/view"
+        href="https://drive.google.com/file/d/1gqrX56_iKrPLTAzaX1Sb2ASSL5agaFl2/view?usp=sharing"
         target="_blank"
         className="hidden lg:block bg-black text-white text-xs py-2 px-4 rounded-md shadow-sm"
       >
