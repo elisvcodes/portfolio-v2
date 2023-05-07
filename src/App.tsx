@@ -66,7 +66,7 @@ function App() {
       <Section title="Featured Articles">
         <ArticlesCard
           title="How to add Stripe payments to your Next.js app"
-          link="https://blog.elisv.com/how-to-add-stripe-payments-to-your-next-js-app-d1cfced7c8a5"
+          link="https://medium.com/@sultanoveli/how-to-add-stripe-payments-to-your-next-js-app-d1cfced7c8a5"
         />
         <ArticlesCard
           title="Learn How to Build a Full-Stack Application - Part 1"
