@@ -65,6 +65,10 @@ function App() {
 
       <Section title="Featured Articles">
         <ArticlesCard
+          title="Array.reduce — Let’s understand it once and for all"
+          link="https://sultanoveli.medium.com/array-reduce-lets-understand-it-once-and-for-all-3de42daac192"
+        />
+        <ArticlesCard
           title="How to add Stripe payments to your Next.js app"
           link="https://medium.com/@sultanoveli/how-to-add-stripe-payments-to-your-next-js-app-d1cfced7c8a5"
         />
