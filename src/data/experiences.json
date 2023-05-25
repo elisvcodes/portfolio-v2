@@ -4,11 +4,11 @@
     "role": "Software engineer",
     "tenure": "12/2021 - 12/2022",
     "accomplishments": [
-      "Created an intuitive content management system (CMS) using React & TypeScript that enabled content creators to efficiently manage their content from a single dashboard.",
-      "Designed reusable functional components that use Hooks & Context Providers for state management.",
-      "Collaborated closely with the design team to evaluate and enhance landing pages, implementing data-driven changes that led to a 30% increase in conversion rates and improved user experience.",
-      "Worked closely with the backend team to implement RESTful API’s and GraphQL queries for seamless data retrieval and manipulation.",
-      "Participated in every step of the product development process, from ideation to development, and assisted in developing features that were adopted by 500,000+ users."
+      "Developed an e-commerce platform for content creators using TypeScript, React.js, Next.js, and GraphQL, enabling the sale of diverse digital products with a seamless user experience as part of a 7-person team.",
+      "Collaborated with the design team to evaluate and enhance landing pages, implementing data-driven changes that led to a 30% increase in conversion rates and improved user experience over a 2-month period.",
+      "Leveraged RESTful API routes and GraphQL Queries, provided by the backend team, for efficient data manipulation and retrieval on the frontend.",
+      "Designed & developed a rich text editor with features such as text formatting and media embedding, enabling better content control and driving a 10% increase in new businesses on the platform over three months.",
+      "Applied Agile methodologies in product development, contributing to the creation of innovative features such 2FA and one-click checkout that were adopted by over 500,000 users."
     ]
   },
   {
